@@ -8,3 +8,14 @@ build-mode = "both"
 version = "20.16.38"
 included-patches = "'MaterialYou'"
 
+[Spotify]
+apkmirror-dlurl = "https://apkmirror.com/apk/spotify-ab/spotify-music-podcasts"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
+rv-brand = "anddea ReVanced"
+arch = "arm64-v8a"
+build-mode = "both"
+version = "9.0.62.622"
+included-patches = "'Fix Facebook login' 'Fix third party launchers widgets' 'Hide Create button' 'Lyrics search' 'Unlock Premium'"
+exclusive-patches = true
+
